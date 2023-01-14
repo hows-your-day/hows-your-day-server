@@ -2,8 +2,8 @@
 
 ## White Rocket's first project.
 ### Features
- - [ ] save peronal records
- - [ ] alarm every fixed time
+ - [ ] input/update/read peronal records
+ - [ ] push notifications every fixed time
  - [ ] sing up, sign in
  - [ ] view - calendar, table
  - [ ] share with friends
