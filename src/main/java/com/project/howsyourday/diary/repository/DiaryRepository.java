@@ -6,7 +6,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 public interface DiaryRepository extends JpaRepository<Diary, Long> {
-    @Query("SELECT d FROM Diary d WHERE d.title LIKE %?1%")
-    List<Diary> findByTitleLike(String title);
+//    @Query("SELECT d FROM Diary d WHERE d.title LIKE %?1%")
+//    List<Diary> findByTitleLike(String title);
 
+    @Query
+    List<Diary> findByTitleLike(String title);
 }
